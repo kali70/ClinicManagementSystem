@@ -7,8 +7,8 @@ import open from 'open';
 /* eslint-disable no-console */
 
 const port = 3000;
-const app = express();
 const compiler = webpack(config);
+const app = express();
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
