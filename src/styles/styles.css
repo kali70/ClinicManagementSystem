@@ -6,7 +6,6 @@
 	max-width: 850;
 	margin: 0 auto;
 }
-
 a.active {
 	color: orange;
 }
@@ -14,4 +13,17 @@ a.active {
 nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.container .jumbotron h1 {
+    color: blue;
+    margin: auto;
+    text-align: center;
+}
+
+.container .jumbotron p {
+    margin: auto;
+    font-size: 37px;
+    color: red;
+    text-align: center;
 }

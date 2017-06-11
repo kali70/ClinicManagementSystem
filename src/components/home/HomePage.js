@@ -6,8 +6,8 @@ class HomePage extends React.Component {
 		return (
 			<div className="jumbotron">
 				<h1>عيادة النرجس لطب و جراحة الفم و الاسنان</h1>
-				<p>صحتك تهمنا</p>
-				<Link to="about" className="btn btn-primary btn-lg">Lear More</Link>
+				<p>صحتك بالدنيا</p>
+				<Link to="about" className="btn btn-primary btn-lg">تعلم اكثر</Link>
 			</div>
 		);
 	}
